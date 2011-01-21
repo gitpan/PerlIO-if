@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.63.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 f12454531f3174ae323630caf98598ed6bb7b544 Build.PL
+SHA1 e29ec7960025b2d6be6003ed1b732fd1b781541d Changes
+SHA1 5ecf683d0174af998b9e210d58e137e1c95448aa LICENSE
+SHA1 be0dbf88d8c831f8d9a01e9ccddd728689cf4bb3 MANIFEST
+SHA1 8d1c7a085ee73bf9bd159111e1493e02ff6609c6 META.json
+SHA1 3db3dbc306a98cfb5aa6d11ff1fd9be7eab722d3 META.yml
+SHA1 37912e0931e089c73a37c307ca22f2371c4b3496 README
+SHA1 2a1774a349d6661503aab59b5983ceb942ee79be dist.ini
+SHA1 18ecdd797062952bc333168ff8dc7a980734554e lib/PerlIO/if.pm
+SHA1 b1c2cca8451120f97da540ddc16a1f7594086ea9 lib/PerlIO/if.xs
+SHA1 ec5693ed46f36c9814c266607c22b31e4e3808d5 t/00-compile.t
+SHA1 9fe2a85b2b5e77f248afd0df16a5c6a86c6712cd t/10-basics.t
+SHA1 5c8c75158f511aba307960bf68d723a0f306dcb5 t/release-kwalitee.t
+SHA1 915660f6a5863e69ae664ec8523de5a5cf6e0d28 t/release-pod-coverage.t
+SHA1 8c88326c52e1ceddd6eae73b2a3219210bfed046 t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAk05qKgACgkQTd+EWiaICwo7GwCfROmkXTNSygT5mSnqAzdKj1Os
+jrEAn3O64l8ReJ3sVxcUHkAvNdqBAWLt
+=fQ//
+-----END PGP SIGNATURE-----
