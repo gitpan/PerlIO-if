@@ -23,7 +23,7 @@ my %module_build_args = (
     'Leon Timmermans <fawaka@gmail.com>'
   ],
   'dist_name' => 'PerlIO-if',
-  'dist_version' => '0.001',
+  'dist_version' => '0.002',
   'license' => 'perl',
   'module_name' => 'PerlIO::if',
   'recommends' => {},
