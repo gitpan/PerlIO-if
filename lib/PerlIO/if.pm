@@ -8,7 +8,7 @@
 #
 package PerlIO::if;
 BEGIN {
-  $PerlIO::if::VERSION = '0.002';
+  $PerlIO::if::VERSION = '0.003';
 }
 use 5.008;
 use strict;
@@ -33,7 +33,7 @@ PerlIO::if - Push layers conditionally
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
